@@ -2,7 +2,7 @@
 # to build:
 #    docker build -f Dockerfile -t coursera .
 # to run:
-#    docker run -it -p 8888:8888 -v /home/ishivvers/Documents/2020/coursera/ml-coursera-python-assignments/:/workdir/ coursera:latest bash
+#    docker run -it -p 8888:8888 -v /home/ishivvers/codes/ml-coursera-python-assignments/:/workdir/ coursera:latest bash
 # from inside container:
 #    jupyter notebook --ip 0.0.0.0 --no-browser --allow-root
 ##############################################################
